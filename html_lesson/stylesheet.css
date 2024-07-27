@@ -1,0 +1,45 @@
+.title {
+    color: #02ccba;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+/* ヘッダー部 */
+.header_button{
+    list-style:none;
+    /* display: inline-block; */
+    background-color:burlywood;
+    display: flex;
+/*    top: 100%;
+    right: 0;
+    left: 0;
+*/
+}
+
+.header_button li{
+    width:180px;
+    text-align: center;
+    background-color: #333;
+    margin-left:2px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.header_button li a{
+    text-decoration: none;
+    color: #fff; 
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: block;
+    height:50px
+}
+
+/* おすすめのハンバーガー店　ページ */
+.shopLink1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.img_burger{
+    height:200px;
+    width: 300px;
+}
